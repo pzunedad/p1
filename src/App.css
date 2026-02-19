@@ -1,0 +1,54 @@
+/* Estilos para el título */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Estilos para mensajes de carga y error */
+h2, h3 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h2 {
+  color: #666;
+}
+
+h3 {
+  color: #ff4444;
+}
+
+/* Estilos para la paginación */
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.next-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.next-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.next-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Estilos para el contador total */
+.total-count {
+  margin-top: 10px;
+  color: #666;
+  text-align: center;
+  font-size: 14px;
+}
